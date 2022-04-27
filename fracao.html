@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Representando frações com Canvas</title>
+</head>
+
+<body>
+
+    <center>
+        <table>
+            <tr>
+                <td colspan="2">
+                    <center>
+                        <h3>Insira sua fração:</h3>
+                    </center>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="number" id="numerador">
+                </td>
+                <td rowspan="2">
+                    <button id="mostrarFracao" onclick="mostrarFracao()"> Mostrar Fração</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="number" id="denominador">
+                </td>
+            </tr>
+        </table>
+        <br>
+        <canvas width="600" height="4000"></canvas>
+    </center>
+</body>
+<script src="fracao.js"></script>
+
+</html>
